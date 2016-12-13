@@ -16,17 +16,17 @@ public class ExemploVariavelEstatica {
 		System.out.println("Mes do ano " + UtilData.MARÇO);
 
 		
-		System.out.println("Dia da Semana " + data.DiaDaSemana);
-		data.DiaDaSemana = 3;
-		System.out.println("Mudou Dia Da Semana" + data.DiaDaSemana);
+		System.out.println("Dia da Semana " + UtilData.DiaDaSemana);
+		UtilData.DiaDaSemana = 3;
+		System.out.println("Mudou Dia Da Semana" + UtilData.DiaDaSemana);
 		
-		UtilData data2 = new UtilData();
+		//UtilData data2 = new UtilData();
 		System.out.println("instancia 1 Dia do Mes " + UtilData.DiaDoMes);
-		System.out.println("instancia 2 Dia do Mes " + data2.DiaDoMes);
-		data2.DiaDoMes = 20;
+		System.out.println("instancia 2 Dia do Mes " + UtilData.DiaDoMes);
+		UtilData.DiaDoMes = 20;
 		
 		System.out.println("instancia 1 Mudou Dia do Mes " + UtilData.DiaDoMes);
-		System.out.println("instancia 2 Mudou Dia do mês " + data2.DiaDoMes);
+		System.out.println("instancia 2 Mudou Dia do mês " + UtilData.DiaDoMes);
 
 	}
 
